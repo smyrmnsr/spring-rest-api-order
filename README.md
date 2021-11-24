@@ -25,12 +25,11 @@ The API is developed using Java(JDK 11),Spring(MVC,REST,JPA) and PostgreSQL Data
 [
 	{
         "itemName": "Product1",
-        "quantity": 20,
-        "product": {
-        	"productId": 102,
-        	"name": "",
+        "quantity": 2,
+        "products": {
+        	"id": 102,
+        	"name": "Product1",
         	"price": 0,
-        	"quantity": 0
         }
 	}
 ]
