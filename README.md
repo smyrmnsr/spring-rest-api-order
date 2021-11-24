@@ -1,18 +1,20 @@
 ## The objective of this project was to develop a functionality through which customers of an online store can place orders.
 
-The API is developed using Java(JDK 11),Spring(MVC,REST,JPA) and PostgreSQL Database.
+The API is developed using: 
+![JAVA](https://img.shields.io/badge/JAVA-black?style=flat&logo=java&logoColor=orange)
+![SPRING](https://img.shields.io/badge/SPRING-black?style=flat&logo=Symfony&logoColor=green)
+![POSTGRESQL](https://img.shields.io/badge/POSTGRESQL-black?style=flat&logo=postgresql&logoColor=blue)
 
-## What You Will Need?
+## In order for the application to run properly you need the following installed on your system:
 
 - Java 11
-- Mysql
+- PostgreSQL
 - Maven
 - Embedded Tomcat
-- Postman REST Services Client
 
-
-## PostgreSQL credential change
--- change PostgreSQL credentials(url,username and password) in the application.properties file.
+## How to run the application locally
+-- Create a new PostgreSQL database and change the application properties (E.g. username/password of DB) present in ``resources/application.properties``  
+according to your local postgresql-server.
 
 ## URLs (Products)
 -- http://localhost:8080/api/products
