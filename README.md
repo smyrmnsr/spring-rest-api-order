@@ -13,8 +13,7 @@ The API is developed using:
 - Embedded Tomcat
 
 ## How to run the application locally
--- Create a new PostgreSQL database and change the application properties (E.g. username/password of DB) present in ``resources/application.properties``  
-according to your local postgresql-server.
+-- Create a new PostgreSQL database and change the application properties (E.g. username/password of DB) present in ``resources/application.properties`` according to your local postgresql-server.
 
 ## URLs (Products)
 -- http://localhost:8080/api/products
