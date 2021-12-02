@@ -23,17 +23,14 @@ The API is developed using:
   * end points (/create)
 ## Place Order
 ```
-[
-	{
-        "itemName": "Product1",
-        "quantity": 2,
-        "products": {
-        	"id": 102,
-        	"name": "Product1",
-        	"price": 0,
+{
+    "products": [
+        {
+            "name": "Product1",
+            "price": 21.99
         }
-	}
-]
+    ]
+}
 ```
 ## Insert Product (demo)
 ```
