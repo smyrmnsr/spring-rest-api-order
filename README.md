@@ -19,7 +19,7 @@ The API is developed using:
 -- http://localhost:8080/api/products
   * end points (/{id},/save,/delete/{id},)
 ## URLs (Orders)
--- http://localhost:8080/api/order/
+-- http://localhost:8080/api/orders
   * end points (/create)
 ## Place Order
 ```
